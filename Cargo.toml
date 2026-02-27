@@ -1,0 +1,15 @@
+[package]
+name = "mac-shell"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mac-shell"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.27"
+chrono = "0.4"
+users = "0.11"
+xattr = "1.0"
+libc = "0.2"

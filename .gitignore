@@ -1,0 +1,19 @@
+/target
+Cargo.lock
+
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Editor backups
+*.swp
+*.swo
+*~
